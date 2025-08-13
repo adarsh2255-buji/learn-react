@@ -23,11 +23,11 @@ const Tabs = () => {
             <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            >{tab}</button>
+            >{tab}</button> 
         ))
     }
     <p>{renderContent(
-        
+
     )}</p>
     </>
   )
