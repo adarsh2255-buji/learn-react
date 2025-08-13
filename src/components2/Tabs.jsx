@@ -26,7 +26,9 @@ const Tabs = () => {
             >{tab}</button>
         ))
     }
-    <p>{renderContent()}</p>
+    <p>{renderContent(
+        
+    )}</p>
     </>
   )
 }
